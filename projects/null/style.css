@@ -1,0 +1,43 @@
+/* .line{
+    color: black;
+}
+.title{
+    color: #339;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.text1 {
+    color:antiquewhite;
+    font-family: serif;
+    font-style: italic;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.text2{
+    text-align: right;
+} */
+.gif-container {
+    position: relative;
+    display: inline-block;
+}
+.gif-container img {
+    display: block;
+}
+.gif-text {
+    position: absolute;
+    bottom: 20px; /* Позиция от низа */
+    left: 50%;
+    transform: translateX(-50%);
+    color: 000;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Тень для читаемости */
+    
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+
